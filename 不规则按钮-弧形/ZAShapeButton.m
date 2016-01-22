@@ -1,7 +1,7 @@
 //
 //  ZAShapeButton.m
 //  OppleOnline
-//----------------
+
 //  Created by zhuoapp on 15/6/3.
 //  Copyright (c) 2015年 zhuoapp. All rights reserved.
 //
@@ -14,7 +14,7 @@
 #define PathDic(path,position) [NSDictionary dictionaryWithObjectsAndKeys:path,@"path",position,@"position", nil]
 #define OffSet 2.5
 @interface ZAShapeButton()
-@property(nonatomic,strong) NSArray *array;
+
 
 
 @property (nonatomic) NSMutableArray *pathArray;
