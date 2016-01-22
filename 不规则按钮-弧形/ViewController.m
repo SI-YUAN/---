@@ -4,7 +4,7 @@
 //
 //  Created by 陈思远 on 15/12/17.
 //  Copyright © 2015年 陈思远. All rights reserved.
-//  做个测试
+//
 
 #import "ViewController.h"
 #import "ZAShapeButton.h"
@@ -89,6 +89,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     //做个测试
+    //于11：42做的修改  
 }
 
 @end
