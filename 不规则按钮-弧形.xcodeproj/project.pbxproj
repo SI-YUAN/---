@@ -13,6 +13,8 @@
 		428D89A11C228EC100C816ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428D899F1C228EC100C816ED /* Main.storyboard */; };
 		428D89A31C228EC100C816ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428D89A21C228EC100C816ED /* Assets.xcassets */; };
 		428D89A61C228EC100C816ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428D89A41C228EC100C816ED /* LaunchScreen.storyboard */; };
+		428D89AE1C22912D00C816ED /* custom_annulus2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 428D89AD1C22912D00C816ED /* custom_annulus2@2x.png */; };
+		428D89B11C22918E00C816ED /* ZAShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 428D89B01C22918E00C816ED /* ZAShapeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		428D89A21C228EC100C816ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		428D89A51C228EC100C816ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		428D89A71C228EC100C816ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428D89AD1C22912D00C816ED /* custom_annulus2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "custom_annulus2@2x.png"; sourceTree = "<group>"; };
+		428D89AF1C22918E00C816ED /* ZAShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAShapeButton.h; sourceTree = "<group>"; };
+		428D89B01C22918E00C816ED /* ZAShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAShapeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		428D89951C228EC100C816ED /* 不规则按钮-弧形 */ = {
 			isa = PBXGroup;
 			children = (
+				428D89AD1C22912D00C816ED /* custom_annulus2@2x.png */,
+				428D89AF1C22918E00C816ED /* ZAShapeButton.h */,
+				428D89B01C22918E00C816ED /* ZAShapeButton.m */,
 				428D89991C228EC100C816ED /* AppDelegate.h */,
 				428D899A1C228EC100C816ED /* AppDelegate.m */,
 				428D899C1C228EC100C816ED /* ViewController.h */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				428D89A61C228EC100C816ED /* LaunchScreen.storyboard in Resources */,
+				428D89AE1C22912D00C816ED /* custom_annulus2@2x.png in Resources */,
 				428D89A31C228EC100C816ED /* Assets.xcassets in Resources */,
 				428D89A11C228EC100C816ED /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			files = (
 				428D899E1C228EC100C816ED /* ViewController.m in Sources */,
 				428D899B1C228EC100C816ED /* AppDelegate.m in Sources */,
+				428D89B11C22918E00C816ED /* ZAShapeButton.m in Sources */,
 				428D89981C228EC100C816ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
